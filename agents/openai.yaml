@@ -1,0 +1,4 @@
+interface:
+  display_name: "EDA Reference 格式与核查"
+  short_description: "依据 writing_rule、Kahng 论文实例及老师定稿整理参考文献并核查正文引用"
+  default_prompt: "使用 $eda-reference-style，优先按 writing_rule 明确要求，未覆盖时按老师最终稿，再参考 Kahng 风格，核查 reference 及正文引用并说明依据。"
